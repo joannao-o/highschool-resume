@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&family=Nunito+Sans:ital,wght@1,300&display=swap');
+
+#name{
+    color: #7f1734;
+}
+#pictures img {
+    width:400px;
+    height:280px;
+}
+#title
+{
+    font-size:20px;
+    color: teal;
+    border-top:solid 1px black;
+    border-bottom:solid 1px black;
+    padding: 5px;
+}
+
+#ed-desc
+{
+    font-size:20px;
+    color: teal;
+    border-bottom: 1px solid black;
+    font-style: none;
+    display:none;
+
+}
+h1
+{
+    color: crimson;
+    font-style: italic;
+}
+body
+{
+
+  background: #4e54c8;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: "Comfortaa", sans-serif;
+   
+}
+#button 
+{
+    background-color: thistle;
+}
+#experience
+{
+    font-size:20px;
+    color: teal;
+    border-top:solid 1px black;
+    border-bottom:solid 1px black;
+    padding: 5px;
+}
+
+#exp-desc
+{
+    border-bottom: 1px solid black;
+    font-style: none;
+
+}
+#skills
+{
+    font-size:20px;
+    color: teal;
+    border-top:solid 1px black;
+    border-bottom:solid 1px black;
+    padding: 5px;
+}
+#skill-desc
+{
+    border-bottom: 1px solid black;
+    font-style: none;
+
+}
+#awards
+{
+    font-size:20px;
+    color: teal;
+    border-top:solid 1px plum;
+    border-bottom:solid 1px plum;
+    padding: 5px;
+}
+
+#award-desc
+{
+    border-bottom: 1px solid plum;
+    font-style: none;
+
+}
+
+#everything 
+{
+    backdrop-filter: blur(6px);
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 15px;
+    border-radius: 13px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: 0px -10px 60px rgba(156,172,255, 0.85)
+}
+
+#contact
+{
+    padding: 5px;
+    display: inline-block;
+    background: transparent;
+    border: 5px solid white;
+    backdrop-filter: contrast(100%);
+}
+.text
+{
+    color: teal;
+
+}
+body
+{
+    background:url("https://www.xmple.com/wallpaper/dots-polka-pink-spots-white-1920x1080-c2-ffb6c1-ffffff-l2-31-86-a-330-f-3.svg");
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    font-size:15px;
+    color: teal;
+}
