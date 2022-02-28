@@ -34,5 +34,6 @@ $("#gallery").click(function(){
 $("#gallery-desc").slideToggle("slow");
     
 })
+    
 
 }
